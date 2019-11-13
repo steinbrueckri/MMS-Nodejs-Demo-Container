@@ -9,7 +9,7 @@
   },
   "author": "",
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.17.1"
   },
   "devDependencies": {
     "chai": "3.5.0",
