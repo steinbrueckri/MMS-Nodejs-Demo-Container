@@ -14,7 +14,7 @@
   "devDependencies": {
     "chai": "3.5.0",
     "mocha": "^6.2.2",
-    "supertest": "^3.3.0"
+    "supertest": "^4.0.2"
   },
   "license": "Apache-2"
 }
