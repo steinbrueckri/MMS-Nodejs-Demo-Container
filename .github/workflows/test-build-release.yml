@@ -3,7 +3,7 @@ name: test-build-release
 on: push
 env:
   IMAGE_TAG: ${{ github.sha }}
-  IMAGE: "mms-nodejs-demo-container"
+  IMAGE: "steinbrueckri/mms-nodejs-demo-container"
 jobs:
   tests:
     name: Run tests
