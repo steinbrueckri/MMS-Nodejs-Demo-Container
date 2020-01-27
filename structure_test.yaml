@@ -1,0 +1,12 @@
+schemaVersion: 2.0.0
+
+fileExistenceTests:
+  - name: '/src/index.js exist ...'
+    path: /src/index.js
+    shouldExist: true
+    uid: 0
+    gid: 0
+
+metadataTest:
+  entrypoint: []
+  workdir: "/src"

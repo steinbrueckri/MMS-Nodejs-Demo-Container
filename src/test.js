@@ -41,3 +41,8 @@ describe('test.js', () => {
   });
 
 });
+
+after('Exit mocha gracefully after finishing all tests execution', () => {
+  // Exit node process
+  process.exit()
+});
