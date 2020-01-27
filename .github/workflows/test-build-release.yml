@@ -26,10 +26,10 @@ jobs:
           node-version: '9.x'
 
       - name: NPM install
-        run: npm install
+        run: cd ./src && npm install
       
       - name: Start Mocha Tests
-        run: npm test
+        run: cd ./src && npm test
 
       - name: Docker Compose Validate
         run: docker-compose -f docker-compose.yml config
