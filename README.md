@@ -1,5 +1,7 @@
 # MMS-Nodejs-Demo-Container
 
+![test-build-release](https://github.com/steinbrueckri/MMS-Nodejs-Demo-Container/workflows/test-build-release/badge.svg)
+
 Example how to deliver an App in an Docker Image
 
 ## Start the Containers
