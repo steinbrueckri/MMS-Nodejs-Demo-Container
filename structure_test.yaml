@@ -8,5 +8,5 @@ fileExistenceTests:
     gid: 0
 
 metadataTest:
-  entrypoint: []
+  entrypoint: ["node", "."]
   workdir: "/src"
