@@ -21,4 +21,4 @@ COPY ./src/index.js /src/index.js
 EXPOSE 3000
 
 ## The command to run the application
-CMD ["node", "."]
+ENTRYPOINT ["node", "."]
