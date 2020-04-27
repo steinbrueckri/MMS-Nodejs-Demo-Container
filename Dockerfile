@@ -1,5 +1,5 @@
 ## Specifies the base image we're extending
-FROM node:13-alpine
+FROM node:14-alpine
 
 ## Create base directory
 RUN mkdir /src
